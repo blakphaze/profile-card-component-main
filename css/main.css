@@ -16,7 +16,7 @@ body {
     font-size: 18px;
     background-image: url("../images/bg-pattern-top.svg"),
                   url("../images/bg-pattern-bottom.svg");
-    background-position: -90% 120%, 160% -80%;
+    background-position: 150% -500px, -50% -30%;
     background-repeat: no-repeat;
     background-color: var(--dark-cyan);
 }
@@ -108,3 +108,12 @@ li + li {
     font-size: 0.7rem;
 }
 
+@media (min-width:600px) {
+    body {
+        background-image: url("../images/bg-pattern-top.svg"),
+                      url("../images/bg-pattern-bottom.svg");
+        background-position: -90% 120%, 160% -80%;
+        background-repeat: no-repeat;
+        background-color: var(--dark-cyan);
+    }
+}
