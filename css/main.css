@@ -38,7 +38,8 @@ hr {
     position: absolute;
     top: 150px;
     width: 100%;
-    /* border: 0.9px solid var(--dark-gray); */
+    border-top: none;
+    border-bottom: 1px solid var(--dark-gray);
 }
 
 .container {
